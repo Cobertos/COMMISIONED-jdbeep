@@ -1,0 +1,4 @@
+user-agent: *
+allow: /$
+disallow: /
+sitemap: https://jdbigger.art/sitemap.xml

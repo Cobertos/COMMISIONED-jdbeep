@@ -1,0 +1,127 @@
+@use "sass:math";
+@import "../pages/_utils.scss";
+
+.site {
+  margin: 0;
+
+  :global {
+    $between-content: 150px;
+    $content-size: 1100px;
+    $content-size-mobile: 500px;
+
+    .middle-content {
+      max-width: $content-size-mobile;
+      margin: 0 auto;
+      padding: 20px;
+
+      @include desktop {
+        max-width: $content-size;
+      }
+    }
+
+    .about-group {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: $between-content;
+      min-height: 80vh;
+      gap: 60px;
+
+
+      @include desktop {
+        gap: 100px;
+        flex-direction: row;
+
+        @supports not (gap: 100px) {
+          > *:nth-child(n+2) {
+            margin-right: 100px;
+          }
+        }
+      }
+
+      > * {
+        max-width: $content-size-mobile;
+        flex: 1 1 50%;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+        font-size: 45px;
+        text-wrap: nowrap;
+
+        @include desktop {
+          font-size: 80px;
+        }
+      }
+
+      font-size: 18px;
+      @include desktop {
+        font-size: 20px;
+      }
+
+      .link {
+        .icon {
+          margin-right: 10px;
+        }
+      }
+
+      .figure {
+        position: relative;
+        flex: 0 0 auto;
+        display: none;
+
+        @include desktop {
+          display: block;
+        }
+
+        svg {
+          position: absolute;
+          z-index: 2;
+          color: #FFF;
+          opacity: 80%;
+          mix-blend-mode: difference;
+          animation: 3s infinite alternate slidein;
+        }
+
+        svg:nth-child(1) {
+          width: 100px;
+          left: 20px;
+          top: 20px;
+        }
+        svg:nth-child(2) {
+          width: 180px;
+          left: -40px;
+          top: 50%;
+        }
+        svg:nth-child(3) {
+          width: 120px;
+          left: 40%;
+          top: 80%;
+        }
+
+        img {
+          filter: blur(1px);
+        }
+      }
+    }
+
+    footer {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 0.7em;
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}

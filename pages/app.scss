@@ -1,0 +1,112 @@
+@import "_fonts";
+@import "_utils";
+
+
+// Bulma
+// Includes a minireset that handles a lot of the normal stuff, like box-sizing: border-box,
+// margin, padding: 0 on :root, font-smoothing. It also unsets all the heading sizes
+// and margins and such so we can set ourselves
+// TODO: Until Bulma resolves dark mode (https://github.com/jgthms/bulma/issues/2342)
+// you might consider adding the following project
+// https://github.com/jloh/bulma-prefers-dark
+// TODO: Bulma will eventually support CSS variables https://github.com/jgthms/bulma/issues/1837
+//@import "@/node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/sass/base/_all";
+@import "../node_modules/bulma/sass/elements/_all";
+@import "../node_modules/bulma/sass/form/_all";
+//label:not([class="radio"]):not([class="checkbox"]) {
+//  @extend .label;
+//}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+ @extend .input;
+}
+//textarea {
+//  @extend .textarea;
+//  // Resizer will have default style, which is annoying, but it's unstylable
+//  // (-webkit-resizer stopped working in Chrome, no styling in FF)
+//}
+button, .button {
+  //@extend .button;
+  font-weight: bold;
+  display: inline-flex;
+  border-radius: 0;
+  padding: 5px 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 0;
+
+  &:focus {
+    outline: 5px solid white;
+  }
+}
+
+//// select, checkbox and radio require extra markup so can't be used by default
+//// <div class="select><select></select></div>
+//// <label class="checkbox"><input type="checkbox">My checkbox</label>
+//// <label class="radio"><input type="radio">My radio</label>
+//
+//@import "@/node_modules/bulma/sass/components/_all";
+//@import "@/node_modules/bulma/sass/grid/_all";
+//@import "@/node_modules/bulma/sass/helpers/_all";
+//@import "@/node_modules/bulma/sass/layout/_all";
+
+
+svg, img {
+  display: block;
+  vertical-align: top;
+}
+
+::selection, ::-moz-selection
+{
+  color: invert($text);
+  background: invert($background);
+}
+
+body {
+  // TODO: Integrate with bulma
+  font-size: 18px;
+
+  --residential-color: #20C997;
+  --commercial-color: #0D6EFD;
+  --medical-color: #DC3545;
+}
+
+p {
+  margin: 0 0 25px;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $family-secondary;
+  //font-weight: $weight-bold;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 31px;
+  margin: 15px 0;
+}
+
+h4 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 7px 0;
+}
