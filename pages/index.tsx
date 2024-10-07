@@ -10,72 +10,158 @@ import Gallery from "../components/Gallery";
 
 const gallery = {
   "grin": {
-    "title": "Grin",
-    "size": "10x12(in)",
-    "medium": "oil on canvas",
-    "available": true,
-    "price": "$200",
-    "tags": [ "Landscape", "Portrait", "Figure", "Fantasy", "NSFW" ],
-    "printURL": "https://www.etsy.com/listing/1780810833/hyena-grin-print?click_key=06ac146d7992ee51d8b49b6967f5a7ef1682bf84%3A1780810833&click_sum=1f08c213&ref=shop_home_feat_1",
-    "thumbName": "https://i.etsystatic.com/54195083/r/il/f16406/6256046765/il_600x600.6256046765_ls7u.jpg",
-    "fileName": "https://i.etsystatic.com/54195083/r/il/f16406/6256046765/il_794xN.6256046765_ls7u.jpg"
-  },
-  "futureSky": {
-    "title": "Future Sky",
-    "size": "6x4(in)",
-    "medium": "oil on paper",
-    "available": true,
-    "price": "$100",
-    "tags": [ "Landscape", "Fantasy", "Cool" ],
-    "printURL": "https://www.etsy.com/listing/1780810833/hyena-grin-print?click_key=06ac146d7992ee51d8b49b6967f5a7ef1682bf84%3A1780810833&click_sum=1f08c213&ref=shop_home_feat_1",
-    //"fileName": "butt.png",
-    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG"
-  },
-  "blowing_bubbles": {
-    "title": "Blowing Bubbles",
-    "size": "5x6(ft)",
-    "medium": "acrylic on canvas",
-    "available": false,
-    "price": "$1000",
-    "tags": [  "Figure" ],
-    "printURL": "https://www.etsy.com/listing/1780761457/blowing-bubbles-print?click_key=ab0adf07e6a5b40f20edfe515c2f44787aad9cef%3A1780761457&click_sum=207179b5&ref=shop_home_feat_2",
-    "fileName": "https://i.etsystatic.com/54195083/r/il/8c031e/6255939173/il_794xN.6255939173_op51.jpg",
-    "thumbName": "https://i.etsystatic.com/54195083/r/il/8c031e/6255939173/il_600x600.6255939173_op51.jpg"
-  },
-  "Freya": {
-    "title": "Freya",
-    "size": "14x16(in)",
-    "medium": "Oil on canvas",
-    "available": false,
-    "price": "$150",
-    "tags": [ "Portrait", "Figure", "Fantasy", "NSFW" ],
-    "originalURL": "https://www.etsy.com/listing/1780810833/hyena-grin-print?click_key=06ac146d7992ee51d8b49b6967f5a7ef1682bf84%3A1780810833&click_sum=1f08c213&ref=shop_home_feat_1",
-    "printURL": "https://www.etsy.com/listing/1780810833/hyena-grin-print?click_key=06ac146d7992ee51d8b49b6967f5a7ef1682bf84%3A1780810833&click_sum=1f08c213&ref=shop_home_feat_1",
-    "fileName": "https://i.etsystatic.com/54195083/r/il/0f00ed/6210597264/il_794xN.6210597264_stee.jpg",
-  },
-  "kingOfTheNutt2": {
-  "title": "King of the Nutt 2",
-  "size": "14x16(in)",
-  "medium": "Oil on canvas",
-  "available": false,
-  "price": "$150",
-    "tags": [ "Portrait", "Figure", "Fantasy", "NSFW" ],
-  "printURL": "",
-  // "fileName": "kingOfTheNutt2.png"
-  "fileName": "https://via.placeholder.com/800x800",
-  },
-  "oceanGate3": {
-  "title": "Ocean Gate 3",
-  "size": "8x10(in)",
-  "medium": "Oil on canvas",
-  "available": true,
-  "price": "$250",
-      "tags": [ "Landscape","Fantasy" ],
-  "printURL": "https://www.etsy.com/listing/1427689800/extra-large-wall-art-oversized-wall-art?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_-home_and_living&utm_custom1=_k_CjwKCAjw5Ky1BhAgEiwA5jGujjDqSxj8-xBeNRcveOnHx3HY10oVuS7ouEQ4Nqb08D271bQAGlqrIhoCs7QQAvD_BwE_k_&utm_content=go_12665398257_121762925993_511610210343_pla-303628061699_c__1427689800_12768591&utm_custom2=12665398257&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujjDqSxj8-xBeNRcveOnHx3HY10oVuS7ouEQ4Nqb08D271bQAGlqrIhoCs7QQAvD_BwE",
-  // "fileName": "oceanGate3.png"
-  "fileName": "https://via.placeholder.com/800x800",
-    "thumbName": "https://via.placeholder.com/200x200"
-  }
+   "title": "Grin",
+   "size": "11x14(in)",
+   "medium": "Oil on Panel",
+   "available": false,
+   "price": "$200",
+   "tags": "Portrait",
+   "FIELD8": ["Figure","Animals"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/GrinWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/GrinWM.JPG"
+ },
+ "futureSky":{
+   "title": "Future Sky",
+   "size": "6x4(in)",
+   "medium": "Oil on Paper",
+   "available": false,
+   "price": "$100",
+   "tags": ["Landscape","Fantasy"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG"
+ },
+ "smoke":{
+   "title": "Blowing Bubbles",
+   "size": "11x14(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Portrait","Figure"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/SmokeWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/SmokeWM.JPG"
+ },
+ "freya":{
+   "title": "Freya",
+   "size": "30x40(in)",
+   "medium": "Oil on Canvas",
+   "available": false,
+   "price": "$2,000",
+   "tags": ["Figure","Fantasy","Animals"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FreyjaWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FreyjaWM.JPG"
+ },
+ "absolution":{
+   "title": "Absolution",
+   "size": "30x40(in)",
+   "medium": "Oil on Canvas",
+   "available": true,
+   "price": "$1,000",
+   "tags": ["Figure","NSFW"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/AbsolutionWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/AbsolutionWM.JPG"
+ },
+ "blueUndies":{
+   
+   "title": "Underwear Series 1 - Blue ",
+   "size": "12x12(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Figure","NSFW"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG"
+ },
+ "framed1":{
+   "title": "Framed - 1",
+   "size": "4x5(ft)",
+   "medium": "Oil on Canvas",
+   "available": true,
+   "price": "$1,500",
+   "tags": ["Figure","NSFW"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FramedWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FramedWM.JPG"
+ },
+ "joshuaTree":{
+   
+   "title": "Joshua Tree Plein Air",
+   "size": "9x12(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$100",
+   "tags": ["Landscape"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/JoshuaTreeWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/JoshuaTreeWM.JPG"
+ },
+ "purpleUndies":{
+   "title": "Underwear Series 1 - Purple",
+   "size": "12x12(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Figure","NSFW"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG"
+ },
+ "redUndies":{
+   "title": "Underwear Series 1 - Red",
+   "size": "12x12(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Figure","NSFW"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG"
+ },
+ "tanktop":{
+   "title": "Tanktop",
+   "size": "9x12(in)",
+   "medium": "Oil on Paper",
+   "available": true,
+   "price": "$150",
+   "tags": ["Portrait","Figure"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TanktopWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TanktopWM.JPG"
+ },
+ "theBirds2":{
+   "title": "Spy Birds Series - Red",
+   "size": "8x8(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Animals","Fantasy"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds2WM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds2WM.JPG"
+ },
+ "theBirds1":{
+   "title": "Spy Birds Series - Yellow",
+   "size": "8x8(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Animals", "Fantasy"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds1WM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds1WM.JPG"
+ },
+ "tigerBlep":{
+   "title": "Majestic Blep",
+   "size": "12x12(in)",
+   "medium": "Oil on Panel",
+   "available": true,
+   "price": "$200",
+   "tags": ["Animals", "Figure"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TigerBlepWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TigerBlepWM.JPG"
+ },
+ "worldsAndImages":{
+   "title": "Worlds and Images",
+   "size": "4x5(ft)",
+   "medium": "Oil on Canvas",
+   "available": true,
+   "price": "$2,000",
+   "tags": ["Figure", "Fantasy"],
+   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/WorldsAndImagesWM.JPG",
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/WorldsAndImagesWM.JPG"
+ }
 };
 
 export function IndexPage() {
