@@ -1,0 +1,16 @@
+@import "../pages/_utils.scss";
+
+.modal-close {
+  padding: 24px !important; // Fix bulma?
+
+  &:before, &:after {
+    background-color: #FFF;
+  }
+}
+
+.modal-content {
+  & :global .box {
+    color: #FFF;
+    background-color: transparent;
+  }
+}

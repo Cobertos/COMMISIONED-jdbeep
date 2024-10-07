@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "module": "es2020",
-    "target": "es2020",
+    "module": "esnext",
+    "target": "es2022",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
     "strict": true,
     "lib": [
       "dom",

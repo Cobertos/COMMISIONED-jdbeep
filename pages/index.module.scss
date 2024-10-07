@@ -3,11 +3,15 @@
 
 .site {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 
   :global {
-    $between-content: 150px;
+    $between-content: 70px;
     $content-size: 1100px;
     $content-size-mobile: 500px;
+    $gallery-size: 1300px;
+    $gallery-size-mobile: 700px;
 
     .middle-content {
       max-width: $content-size-mobile;
@@ -19,6 +23,16 @@
       }
     }
 
+    .middle-content.gallery-group {
+      max-width: $gallery-size-mobile;
+      @include desktop {
+        max-width: $gallery-size;
+      }
+    }
+
+    .about-clip {
+      overflow: hidden;
+    }
     .about-group {
       position: relative;
       display: flex;
@@ -66,13 +80,37 @@
         }
       }
 
+      .about-content {
+        position: relative;
+        z-index: 2;
+        padding: 20px;
+        margin-right: 40px;
+
+        @include desktop {
+          padding: 0;
+        }
+
+        p > span {
+          display: inline-block;
+          background-color: $scheme-main;
+          @include desktop {
+            background-color: transparent;
+          }
+        }
+      }
+
       .figure {
         position: relative;
         flex: 0 0 auto;
-        display: none;
+
+        position: absolute;
+        right: 0;
+        translate: 50%; 
 
         @include desktop {
           display: block;
+          translate: 0;
+          position: static;
         }
 
         svg {
@@ -81,23 +119,31 @@
           color: #FFF;
           opacity: 80%;
           mix-blend-mode: difference;
-          animation: 3s infinite alternate slidein;
+          & :local {
+            animation: 4s infinite slidein;
+          }
         }
 
         svg:nth-child(1) {
           width: 100px;
           left: 20px;
           top: 20px;
+          animation-delay: 1s;
+          animation-duration: 7s;
         }
         svg:nth-child(2) {
           width: 180px;
           left: -40px;
           top: 50%;
+          animation-delay: 4s;
+          animation-duration: 10s;
         }
         svg:nth-child(3) {
           width: 120px;
           left: 40%;
           top: 80%;
+          animation-delay: 2s;
+          animation-duration: 8s;
         }
 
         img {
@@ -115,13 +161,21 @@
 }
 
 @keyframes slidein {
-  from {
-    translate: 150vw 0;
-    scale: 200% 1;
+  0% {
+    translate: 0 0;
+    scale: 100%;
+    rotate: 5deg;
   }
 
-  to {
-    translate: 0 0;
-    scale: 100% 1;
+  50% {
+    translate: 20px 0;
+    scale: 110%;
+    rotate: 10deg;
+  }
+
+  100% {
+    translate: 0px 0;
+    scale: 100%;
+    rotate: 5deg;
   }
 }

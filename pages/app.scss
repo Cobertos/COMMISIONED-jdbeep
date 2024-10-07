@@ -50,6 +50,8 @@ button, .button {
 //// <label class="checkbox"><input type="checkbox">My checkbox</label>
 //// <label class="radio"><input type="radio">My radio</label>
 //
+
+@import "../node_modules/bulma/sass/components/modal";
 //@import "@/node_modules/bulma/sass/components/_all";
 //@import "@/node_modules/bulma/sass/grid/_all";
 //@import "@/node_modules/bulma/sass/helpers/_all";
@@ -109,4 +111,31 @@ h4 {
 h5 {
   font-size: 20px;
   margin: 7px 0;
+}
+
+.jd-tag {
+  color: #555;
+  text-transform: lowercase;
+  font-size: 12px;
+  display: inline-flex;
+
+  background-color: transparent;
+  font-weight: normal;
+  border-radius: 0;
+}
+.jd-tag.button, button.jd-tag {
+  cursor: pointer;
+
+  &:hover {
+    color: #222;
+  }
+  &:active, &.active {
+    font-weight: bold;
+    outline: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+button, .button {
+  cursor: pointer;
 }
