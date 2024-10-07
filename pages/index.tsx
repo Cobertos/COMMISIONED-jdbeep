@@ -3,6 +3,7 @@ import Image from "next/image";
 import style from './index.module.scss';
 import Star from "../assets/star.svg?component";
 import Instagram from "../assets/instagram.svg?component";
+import Etsy from "../assets/etsy.svg?component";
 import Mail from "../assets/mail.svg?component";
 import forest from "../assets/forest_trim.jpg";
 import Gallery from "../components/Gallery";
@@ -85,6 +86,7 @@ export function IndexPage() {
             <h1>JD Bigger</h1>
             <p><span>I'm a self-taught artist based in Michigan, crafting oil paintings that merge themes of fantasy with diverse artistic styles, including impressionism, expressionism, realism, and surrealism.</span></p>
             <p><span>My work is deeply influenced by my passion for video games and fantasy and sci-fi literature, creating vivid, immersive worlds that invite viewers to explore the boundaries of imagination. Through this fusion of artistic traditions and personal interests, I aim to evoke a sense of wonder and emotional depth in each piece. My paintings attempt to create a feeling of being halfway in this word, and in a liminal space of aesthetics and symbols.</span></p>
+            <p className="link"><Etsy className="icon"/><a href="https://www.etsy.com/shop/JDBiggerArt" target="_blank">@JDBiggerArt</a></p>
             <p className="link"><Instagram className="icon"/><a href="https://www.instagram.com/jdbiggerart/" target="_blank">@jdbiggerart</a></p>
             <p className="link"><Mail className="icon"/><a href="mailto:jdbiggerart@gmail.com" target="_blank">jdbiggerart@gmail.com</a></p>
           </div>

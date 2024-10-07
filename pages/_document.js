@@ -30,11 +30,11 @@ class MyDocument extends Document {
           <meta name="author" content='Samantha / cobertos.com' />
           <meta name="description" content="JD is a Michigan-based Artist. He works in oil paint, acrylic and watercolorm and he enjoys making art that focuses on concept, aesthetics, and the feeling of the psuedoprofound." />
 
-          <meta itemprop="image" content="https://quickteks.net/soc.jpg" />
+          <meta itemprop="image" content="https://jdbigger.art/soc.jpg" />
 
           <meta property="og:type" content="website"/>
           <meta property="og:description" content="JD is a Michigan-based Artist. He works in oil paint, acrylic and watercolorm and he enjoys making art that focuses on concept, aesthetics, and the feeling of the psuedoprofound." />
-          <meta property="og:image" name="thumb" content="https://quickteks.net/soc.jpg" />
+          <meta property="og:image" name="thumb" content="https://jdbigger.art/soc.jpg" />
           <meta property="og:title" content='Art of JD Bigger - Portraits, Figures, and Fantasies' />
           <meta property="og:url" content="https://jdbigger.art" />
           <meta property="og:site_name" content='Art of JD Bigger' />
