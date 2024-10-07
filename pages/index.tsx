@@ -16,7 +16,6 @@ const gallery = {
     "price": "$200",
     "tags": [ "Landscape", "Portrait", "Figure", "Fantasy", "NSFW" ],
     "printURL": "https://www.etsy.com/listing/1780810833/hyena-grin-print?click_key=06ac146d7992ee51d8b49b6967f5a7ef1682bf84%3A1780810833&click_sum=1f08c213&ref=shop_home_feat_1",
-    //"fileName": "butt.png",
     "thumbName": "https://i.etsystatic.com/54195083/r/il/f16406/6256046765/il_600x600.6256046765_ls7u.jpg",
     "fileName": "https://i.etsystatic.com/54195083/r/il/f16406/6256046765/il_794xN.6256046765_ls7u.jpg"
   },
