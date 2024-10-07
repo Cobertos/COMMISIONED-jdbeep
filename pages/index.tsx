@@ -15,19 +15,16 @@ const gallery = {
    "medium": "Oil on Panel",
    "available": false,
    "price": "$200",
-   "tags": "Portrait",
-   "FIELD8": ["Figure","Animals"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/GrinWM.JPG",
+   "tags": [ "Portrait", "Figure", "Animals" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/GrinWM.JPG"
  },
- "futureSky":{
+ "futureSky": {
    "title": "Future Sky",
    "size": "6x4(in)",
    "medium": "Oil on Paper",
    "available": false,
    "price": "$100",
-   "tags": ["Landscape","Fantasy"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG",
+   "tags": [ "Landscape", "Fantasy" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG"
  },
  "smoke":{
@@ -36,8 +33,7 @@ const gallery = {
    "medium": "Oil on Panel",
    "available": true,
    "price": "$200",
-   "tags": ["Portrait","Figure"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/SmokeWM.JPG",
+   "tags": [ "Portrait", "Figure" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/SmokeWM.JPG"
  },
  "freya":{
@@ -46,8 +42,7 @@ const gallery = {
    "medium": "Oil on Canvas",
    "available": false,
    "price": "$2,000",
-   "tags": ["Figure","Fantasy","Animals"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FreyjaWM.JPG",
+   "tags": [ "Figure", "Fantasy" ,"Animals" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FreyjaWM.JPG"
  },
  "absolution":{
@@ -56,40 +51,35 @@ const gallery = {
    "medium": "Oil on Canvas",
    "available": true,
    "price": "$1,000",
-   "tags": ["Figure","NSFW"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/AbsolutionWM.JPG",
+   "tags": [ "Figure", "NSFW" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/AbsolutionWM.JPG"
  },
  "blueUndies":{
    
-   "title": "Underwear Series 1 - Blue ",
+   "title": "Underwear Series 1 Blue ",
    "size": "12x12(in)",
    "medium": "Oil on Panel",
    "available": true,
    "price": "$200",
-   "tags": ["Figure","NSFW"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG",
+   "tags": [ "Figure", "NSFW" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG"
  },
  "framed1":{
-   "title": "Framed - 1",
+   "title": "Framed 1",
    "size": "4x5(ft)",
    "medium": "Oil on Canvas",
    "available": true,
    "price": "$1,500",
-   "tags": ["Figure","NSFW"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FramedWM.JPG",
+   "tags": [ "Figure", "NSFW" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FramedWM.JPG"
  },
  "joshuaTree":{
-   
    "title": "Joshua Tree Plein Air",
    "size": "9x12(in)",
    "medium": "Oil on Panel",
    "available": true,
    "price": "$100",
-   "tags": ["Landscape"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/JoshuaTreeWM.JPG",
+   "tags": [ "Landscape" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/JoshuaTreeWM.JPG"
  },
  "purpleUndies":{
@@ -98,8 +88,7 @@ const gallery = {
    "medium": "Oil on Panel",
    "available": true,
    "price": "$200",
-   "tags": ["Figure","NSFW"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG",
+   "tags": [ "Figure", "NSFW" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG"
  },
  "redUndies":{
@@ -108,8 +97,7 @@ const gallery = {
    "medium": "Oil on Panel",
    "available": true,
    "price": "$200",
-   "tags": ["Figure","NSFW"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG",
+   "tags": [ "Figure", "NSFW" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG"
  },
  "tanktop":{
@@ -118,8 +106,7 @@ const gallery = {
    "medium": "Oil on Paper",
    "available": true,
    "price": "$150",
-   "tags": ["Portrait","Figure"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TanktopWM.JPG",
+   "tags": [ "Portrait", "Figure" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TanktopWM.JPG"
  },
  "theBirds2":{
@@ -128,8 +115,7 @@ const gallery = {
    "medium": "Oil on Panel",
    "available": true,
    "price": "$200",
-   "tags": ["Animals","Fantasy"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds2WM.JPG",
+   "tags": [ "Animals", "Fantasy" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds2WM.JPG"
  },
  "theBirds1":{
@@ -139,7 +125,6 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": ["Animals", "Fantasy"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds1WM.JPG",
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds1WM.JPG"
  },
  "tigerBlep":{
@@ -149,7 +134,6 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": ["Animals", "Figure"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TigerBlepWM.JPG",
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TigerBlepWM.JPG"
  },
  "worldsAndImages":{
@@ -158,8 +142,7 @@ const gallery = {
    "medium": "Oil on Canvas",
    "available": true,
    "price": "$2,000",
-   "tags": ["Figure", "Fantasy"],
-   "thumbName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/WorldsAndImagesWM.JPG",
+   "tags": [ "Figure", "Fantasy" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/WorldsAndImagesWM.JPG"
  }
 };
