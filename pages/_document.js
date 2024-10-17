@@ -56,7 +56,8 @@ class MyDocument extends Document {
           />
 
           {/*Analytics*/}
-          <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "40ddad906bdd4686816dd16aa504c581"}' />
+          <script async defer data-website-id="d2f765c3-047e-41b7-b36e-1b34f90685b2" src="https://stats.cobertos.com/owo.js" />
+
         </Head>
         <body>
           <Main />
