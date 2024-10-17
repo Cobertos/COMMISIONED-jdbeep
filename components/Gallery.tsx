@@ -69,7 +69,7 @@ export default function GalleryComponent(props: GalleryComponentProps) {
     <div className="g-top">
       <div className="g-top-content">
         <h2>Gallery</h2>
-        <p>Here’s all my stuff! I sell originals, but I also sell prints. Maybe put some other stuff here if I need to communicate that. This is moreso for if you want to</p>
+        <p>I painted this! :3</p>
       </div>
       <div className="g-filters">
         <h3>Filters</h3>
