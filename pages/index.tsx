@@ -9,6 +9,51 @@ import forest from "../assets/forest_trim.jpg";
 import Gallery from "../components/Gallery";
 
 const gallery = {
+  "KissingSeries1-1": {
+   "title": "Kissing Series 1-1",
+   "size": "9x12(in)",
+   "medium": "Oil on Panel",
+   "available": false,
+   "price": "$200",
+   "tags": [ "Portrait", "NSFW" ],
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-1.JPG"
+ },
+  "KissingSeries1-2": {
+   "title": "Kissing Series 1-2",
+   "size": "9x12(in)",
+   "medium": "Oil on Panel",
+   "available": false,
+   "price": "$200",
+   "tags": [ "Portrait", "NSFW" ],
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-2.JPG"
+ },
+  "KissingSeries1-3": {
+   "title": "Kissing Series 1-3",
+   "size": "9x12(in)",
+   "medium": "Oil on Panel",
+   "available": false,
+   "price": "$200",
+   "tags": [ "Portrait", "NSFW" ],
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-3.JPG"
+ },
+  "KissingSeries1-4": {
+   "title": "Kissing Series 1-4",
+   "size": "9x12(in)",
+   "medium": "Oil on Panel",
+   "available": false,
+   "price": "$200",
+   "tags": [ "Portrait", "NSFW" ],
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-4.JPG"
+ },
+  "FigureSeries1-1": {
+   "title": "Figure Series 1-1",
+   "size": "9x12(in)",
+   "medium": "Oil on Panel",
+   "available": false,
+   "price": "$200",
+   "tags": [ "Figure", "NSFW" ],
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/figure+series+1-1.JPG"
+ },
   "grin": {
    "title": "Grin",
    "size": "11x14(in)",
