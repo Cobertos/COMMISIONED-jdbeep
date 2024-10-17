@@ -56,18 +56,7 @@ class MyDocument extends Document {
           />
 
           {/*Analytics*/}
-          {/*<script async src="https://www.googletagmanager.com/gtag/js?id=G-NLKZF46X2F" />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-NLKZF46X2F', { page_path: window.location.pathname });
-              `,
-            }}
-          />*/}
-
+          <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "40ddad906bdd4686816dd16aa504c581"}' />
         </Head>
         <body>
           <Main />
