@@ -16,7 +16,8 @@ const gallery = {
    "available": false,
    "price": "$200",
    "tags": [ "Portrait", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-1.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-1.JPG",
+   "originalURL":"https://www.etsy.com/listing/1797412082/kissing-series-1-1"
  },
   "KissingSeries1-2": {
    "title": "Kissing Series 1-2",
@@ -25,7 +26,8 @@ const gallery = {
    "available": false,
    "price": "$200",
    "tags": [ "Portrait", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-2.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-2.JPG",
+   "originalURL":"https://www.etsy.com/listing/1811614143/kissing-series-1-2"
  },
   "KissingSeries1-3": {
    "title": "Kissing Series 1-3",
@@ -34,7 +36,8 @@ const gallery = {
    "available": false,
    "price": "$200",
    "tags": [ "Portrait", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-3.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-3.JPG",
+   "originalURL":"https://www.etsy.com/listing/1811614365/kissing-series-1-3"
  },
   "KissingSeries1-4": {
    "title": "Kissing Series 1-4",
@@ -43,7 +46,8 @@ const gallery = {
    "available": false,
    "price": "$200",
    "tags": [ "Portrait", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-4.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/kissing+series+1-4.JPG",
+   "originalURL":"https://www.etsy.com/listing/1811614581/kissing-series-1-4"
  },
   "FigureSeries1-1": {
    "title": "Figure Series 1-1",
@@ -52,7 +56,8 @@ const gallery = {
    "available": false,
    "price": "$200",
    "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/figure+series+1-1.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/figure+series+1-1.JPG",
+   "originalURL":"https://www.etsy.com/listing/1811614829/figure-series-1-1"
  },
   "grin": {
    "title": "Grin",
@@ -61,7 +66,8 @@ const gallery = {
    "available": false,
    "price": "$200",
    "tags": [ "Portrait", "Figure", "Animals" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/GrinWM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/GrinWM.JPG",
+   "printUrl":"https://www.etsy.com/listing/1780810833/hyena-grin-print"
  },
  "tigerBlep":{
    "title": "Majestic Blep",
@@ -70,7 +76,9 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": ["Animals", "Figure"],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TigerBlepWM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TigerBlepWM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1767087150/majestic-blep",
+   "printUrl":"https://www.etsy.com/listing/1781284861/majestic-blep-print"
  },
  "worldsAndImages":{
    "title": "Worlds and Images",
@@ -88,7 +96,9 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": [ "Portrait", "Figure" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/SmokeWM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/SmokeWM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1778169355/blowing-bubbles",
+   "printUrl":"https://www.etsy.com/listing/1780761457/blowing-bubbles-print"
  },
  "freya":{
    "title": "Freya",
@@ -118,14 +128,15 @@ const gallery = {
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG"
  },
  "blueUndies":{
-   
    "title": "Underwear Series 1 Blue ",
    "size": "12x12(in)",
    "medium": "Oil on Panel",
    "available": true,
    "price": "$200",
    "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1766913606/underwear-series-blue-trunks",
+   "printUrl":"https://www.etsy.com/listing/1781111313/underwear-series-blue-trunks-print"
  },
  "framed1":{
    "title": "Framed 1",
@@ -152,7 +163,9 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1781109437/underwear-series-purple-briefs",
+   "printUrl":"https://www.etsy.com/listing/1781105317/underwear-series-purple-briefs-print"
  },
  "redUndies":{
    "title": "Underwear Series 1 - Red",
@@ -161,7 +174,9 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1780895965/underwear-series-red-trunks",
+   "printUrl":"https://www.etsy.com/listing/1781100721/underwear-series-red-trunks-print"
  },
  "tanktop":{
    "title": "Tanktop",
@@ -179,7 +194,9 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": [ "Animals", "Fantasy" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds2WM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds2WM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1767091262/spy-birds-red",
+   "printUrl":"https://www.etsy.com/listing/1767093176/spy-birds-red-print"
  },
  "theBirds1":{
    "title": "Spy Birds Series - Yellow",
@@ -188,7 +205,9 @@ const gallery = {
    "available": true,
    "price": "$200",
    "tags": ["Animals", "Fantasy"],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds1WM.JPG"
+   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/TheBirds1WM.JPG",
+   "originalURL":"https://www.etsy.com/listing/1767092106/spy-birds-yellow",
+   "printUrl":"https://www.etsy.com/listing/1767094108/spy-birds-yellow-print"
  }
 };
 
