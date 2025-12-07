@@ -56,7 +56,7 @@ class MyDocument extends Document {
           />
 
           {/*Analytics*/}
-          <script async defer data-website-id="d2f765c3-047e-41b7-b36e-1b34f90685b2" src="https://stats.cobertos.com/owo.js" />
+          <script defer src="https://stats2.cobertos.com/script.js" data-website-id="c5770120-11e2-4f00-b0d2-84b180874155" />
 
         </Head>
         <body>
