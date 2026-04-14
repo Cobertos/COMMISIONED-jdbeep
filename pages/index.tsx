@@ -109,15 +109,6 @@ const gallery = {
    "tags": [ "Figure", "Fantasy" ,"Animals" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FreyjaWM.JPG"
  },
- "absolution":{
-   "title": "Absolution",
-   "size": "30x40(in)",
-   "medium": "Oil on Canvas",
-   "available": true,
-   "price": "$1,000",
-   "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/AbsolutionWM.JPG"
- },
  "futureSky": {
    "title": "Future Sky",
    "size": "6x4(in)",
@@ -127,26 +118,6 @@ const gallery = {
    "tags": [ "Landscape", "Fantasy" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FuturesSkyWM.JPG"
  },
- "blueUndies":{
-   "title": "Underwear Series 1 Blue ",
-   "size": "12x12(in)",
-   "medium": "Oil on Panel",
-   "available": true,
-   "price": "$200",
-   "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/BlueUndiesWM.JPG",
-   "originalURL":"https://www.etsy.com/listing/1766913606/underwear-series-blue-trunks",
-   "printURL":"https://www.etsy.com/listing/1781111313/underwear-series-blue-trunks-print"
- },
- "framed1":{
-   "title": "Framed 1",
-   "size": "4x5(ft)",
-   "medium": "Oil on Canvas",
-   "available": true,
-   "price": "$1,500",
-   "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/FramedWM.JPG"
- },
  "joshuaTree":{
    "title": "Joshua Tree Plein Air",
    "size": "9x12(in)",
@@ -155,28 +126,6 @@ const gallery = {
    "price": "$100",
    "tags": [ "Landscape" ],
    "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/JoshuaTreeWM.JPG"
- },
- "purpleUndies":{
-   "title": "Underwear Series 1 - Purple",
-   "size": "12x12(in)",
-   "medium": "Oil on Panel",
-   "available": true,
-   "price": "$200",
-   "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/PurpleUndiesWM.JPG",
-   "originalURL":"https://www.etsy.com/listing/1781109437/underwear-series-purple-briefs",
-   "printURL":"https://www.etsy.com/listing/1781105317/underwear-series-purple-briefs-print"
- },
- "redUndies":{
-   "title": "Underwear Series 1 - Red",
-   "size": "12x12(in)",
-   "medium": "Oil on Panel",
-   "available": true,
-   "price": "$200",
-   "tags": [ "Figure", "NSFW" ],
-   "fileName": "https://websitephotosjdbiggerart.s3.us-east-2.amazonaws.com/RedUndiesWM.JPG",
-   "originalURL":"https://www.etsy.com/listing/1780895965/underwear-series-red-trunks",
-   "printURL":"https://www.etsy.com/listing/1781100721/underwear-series-red-trunks-print"
  },
  "tanktop":{
    "title": "Tanktop",
